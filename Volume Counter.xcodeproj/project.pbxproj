@@ -14,6 +14,18 @@
 		11299D9D2A086BA400AF209E /* Volume_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11299D9C2A086BA400AF209E /* Volume_CounterTests.swift */; };
 		11299DA72A086BA400AF209E /* Volume_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11299DA62A086BA400AF209E /* Volume_CounterUITests.swift */; };
 		11299DA92A086BA400AF209E /* Volume_CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11299DA82A086BA400AF209E /* Volume_CounterUITestsLaunchTests.swift */; };
+		11299DB72A086C2B00AF209E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 11299DB62A086C2B00AF209E /* Realm */; };
+		11299DB92A086C2B00AF209E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 11299DB82A086C2B00AF209E /* RealmSwift */; };
+		11299DBD2A086DFA00AF209E /* VolumeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11299DBC2A086DFA00AF209E /* VolumeController.swift */; };
+		11299DBF2A086E0E00AF209E /* CounterDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11299DBE2A086E0E00AF209E /* CounterDataModel.swift */; };
+		11299DC12A086E1E00AF209E /* VolumeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11299DC02A086E1E00AF209E /* VolumeListener.swift */; };
+		11299DC62A086E4E00AF209E /* CounterSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11299DC52A086E4E00AF209E /* CounterSingleView.swift */; };
+		11299DC92A086E7600AF209E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11299DC82A086E7500AF209E /* UIColor.swift */; };
+		11299DCB2A086E8700AF209E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11299DCA2A086E8700AF209E /* Color.swift */; };
+		11299DCF2A086EDB00AF209E /* BannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11299DCE2A086EDB00AF209E /* BannerAd.swift */; };
+		25DC98527CCB0D6B0C985BD5 /* Pods_Volume_Counter_Volume_CounterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982CFA6EAEC6027650A32C45 /* Pods_Volume_Counter_Volume_CounterUITests.framework */; };
+		BF2C47663D6DA299E4DB66CD /* Pods_Volume_Counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDAF7D6E5EF2ED3A3625420 /* Pods_Volume_Counter.framework */; };
+		D1D528A895E3F13417CB8A6A /* Pods_Volume_CounterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC765BB0B4B09B24E45E1D50 /* Pods_Volume_CounterTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,23 @@
 		11299DA22A086BA400AF209E /* Volume CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Volume CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11299DA62A086BA400AF209E /* Volume_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume_CounterUITests.swift; sourceTree = "<group>"; };
 		11299DA82A086BA400AF209E /* Volume_CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume_CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11299DBA2A086D1600AF209E /* Volume-Counter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Volume-Counter-Info.plist"; sourceTree = SOURCE_ROOT; };
+		11299DBC2A086DFA00AF209E /* VolumeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeController.swift; sourceTree = "<group>"; };
+		11299DBE2A086E0E00AF209E /* CounterDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDataModel.swift; sourceTree = "<group>"; };
+		11299DC02A086E1E00AF209E /* VolumeListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeListener.swift; sourceTree = "<group>"; };
+		11299DC52A086E4E00AF209E /* CounterSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterSingleView.swift; sourceTree = "<group>"; };
+		11299DC82A086E7500AF209E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		11299DCA2A086E8700AF209E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		11299DCE2A086EDB00AF209E /* BannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAd.swift; sourceTree = "<group>"; };
+		3D325D384B06468C43DBD8DE /* Pods-Volume Counter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volume Counter.release.xcconfig"; path = "Target Support Files/Pods-Volume Counter/Pods-Volume Counter.release.xcconfig"; sourceTree = "<group>"; };
+		4DA69854E2BD1B8FDFB8FD11 /* Pods-Volume CounterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volume CounterTests.debug.xcconfig"; path = "Target Support Files/Pods-Volume CounterTests/Pods-Volume CounterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EDAF7D6E5EF2ED3A3625420 /* Pods_Volume_Counter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Volume_Counter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E53433FB72C2FF384D542E /* Pods-Volume Counter-Volume CounterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volume Counter-Volume CounterUITests.debug.xcconfig"; path = "Target Support Files/Pods-Volume Counter-Volume CounterUITests/Pods-Volume Counter-Volume CounterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73264216F732DD3F80B332FD /* Pods-Volume Counter-Volume CounterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volume Counter-Volume CounterUITests.release.xcconfig"; path = "Target Support Files/Pods-Volume Counter-Volume CounterUITests/Pods-Volume Counter-Volume CounterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		982CFA6EAEC6027650A32C45 /* Pods_Volume_Counter_Volume_CounterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Volume_Counter_Volume_CounterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC765BB0B4B09B24E45E1D50 /* Pods_Volume_CounterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Volume_CounterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41A5EC237231312BF609536 /* Pods-Volume CounterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volume CounterTests.release.xcconfig"; path = "Target Support Files/Pods-Volume CounterTests/Pods-Volume CounterTests.release.xcconfig"; sourceTree = "<group>"; };
+		E88C5D25EB65417C8819F9EB /* Pods-Volume Counter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volume Counter.debug.xcconfig"; path = "Target Support Files/Pods-Volume Counter/Pods-Volume Counter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11299DB92A086C2B00AF209E /* RealmSwift in Frameworks */,
+				11299DB72A086C2B00AF209E /* Realm in Frameworks */,
+				BF2C47663D6DA299E4DB66CD /* Pods_Volume_Counter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1D528A895E3F13417CB8A6A /* Pods_Volume_CounterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25DC98527CCB0D6B0C985BD5 /* Pods_Volume_Counter_Volume_CounterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +112,8 @@
 				11299D9B2A086BA400AF209E /* Volume CounterTests */,
 				11299DA52A086BA400AF209E /* Volume CounterUITests */,
 				11299D892A086BA100AF209E /* Products */,
+				FD6E9F7B561630EF443FA3B3 /* Pods */,
+				93BAACF4D5166776B931017A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +130,10 @@
 		11299D8A2A086BA100AF209E /* Volume Counter */ = {
 			isa = PBXGroup;
 			children = (
+				11299DC72A086E6100AF209E /* Extentions */,
+				11299DC42A086E4500AF209E /* View */,
+				11299DBB2A086DED00AF209E /* Model */,
+				11299DBA2A086D1600AF209E /* Volume-Counter-Info.plist */,
 				11299D8B2A086BA100AF209E /* Volume_CounterApp.swift */,
 				11299D8D2A086BA100AF209E /* ContentView.swift */,
 				11299D8F2A086BA400AF209E /* Assets.xcassets */,
@@ -127,6 +167,57 @@
 			path = "Volume CounterUITests";
 			sourceTree = "<group>";
 		};
+		11299DBB2A086DED00AF209E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11299DBC2A086DFA00AF209E /* VolumeController.swift */,
+				11299DBE2A086E0E00AF209E /* CounterDataModel.swift */,
+				11299DC02A086E1E00AF209E /* VolumeListener.swift */,
+				11299DCE2A086EDB00AF209E /* BannerAd.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11299DC42A086E4500AF209E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11299DC52A086E4E00AF209E /* CounterSingleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11299DC72A086E6100AF209E /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				11299DC82A086E7500AF209E /* UIColor.swift */,
+				11299DCA2A086E8700AF209E /* Color.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		93BAACF4D5166776B931017A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAF7D6E5EF2ED3A3625420 /* Pods_Volume_Counter.framework */,
+				982CFA6EAEC6027650A32C45 /* Pods_Volume_Counter_Volume_CounterUITests.framework */,
+				DC765BB0B4B09B24E45E1D50 /* Pods_Volume_CounterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6E9F7B561630EF443FA3B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E88C5D25EB65417C8819F9EB /* Pods-Volume Counter.debug.xcconfig */,
+				3D325D384B06468C43DBD8DE /* Pods-Volume Counter.release.xcconfig */,
+				60E53433FB72C2FF384D542E /* Pods-Volume Counter-Volume CounterUITests.debug.xcconfig */,
+				73264216F732DD3F80B332FD /* Pods-Volume Counter-Volume CounterUITests.release.xcconfig */,
+				4DA69854E2BD1B8FDFB8FD11 /* Pods-Volume CounterTests.debug.xcconfig */,
+				E41A5EC237231312BF609536 /* Pods-Volume CounterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +225,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11299DAC2A086BA400AF209E /* Build configuration list for PBXNativeTarget "Volume Counter" */;
 			buildPhases = (
+				F2C390A31CC3AB4E34084E86 /* [CP] Check Pods Manifest.lock */,
 				11299D842A086BA100AF209E /* Sources */,
 				11299D852A086BA100AF209E /* Frameworks */,
 				11299D862A086BA100AF209E /* Resources */,
+				A5D2EF64C679916286A3C7AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Volume Counter";
+			packageProductDependencies = (
+				11299DB62A086C2B00AF209E /* Realm */,
+				11299DB82A086C2B00AF209E /* RealmSwift */,
+			);
 			productName = "Volume Counter";
 			productReference = 11299D882A086BA100AF209E /* Volume Counter.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11299DAF2A086BA400AF209E /* Build configuration list for PBXNativeTarget "Volume CounterTests" */;
 			buildPhases = (
+				BA3113291069F4291B51AD41 /* [CP] Check Pods Manifest.lock */,
 				11299D942A086BA400AF209E /* Sources */,
 				11299D952A086BA400AF209E /* Frameworks */,
 				11299D962A086BA400AF209E /* Resources */,
@@ -169,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11299DB22A086BA400AF209E /* Build configuration list for PBXNativeTarget "Volume CounterUITests" */;
 			buildPhases = (
+				F97CD0ECDDCFC1072B35479A /* [CP] Check Pods Manifest.lock */,
 				11299D9E2A086BA400AF209E /* Sources */,
 				11299D9F2A086BA400AF209E /* Frameworks */,
 				11299DA02A086BA400AF209E /* Resources */,
+				B8DA9025FC77093E5DF8F73C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +315,9 @@
 				Base,
 			);
 			mainGroup = 11299D7F2A086BA100AF209E;
+			packageReferences = (
+				11299DB52A086C2B00AF209E /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 11299D892A086BA100AF209E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,12 +355,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5D2EF64C679916286A3C7AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Volume Counter/Pods-Volume Counter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Volume Counter/Pods-Volume Counter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Volume Counter/Pods-Volume Counter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8DA9025FC77093E5DF8F73C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Volume Counter-Volume CounterUITests/Pods-Volume Counter-Volume CounterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Volume Counter-Volume CounterUITests/Pods-Volume Counter-Volume CounterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Volume Counter-Volume CounterUITests/Pods-Volume Counter-Volume CounterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA3113291069F4291B51AD41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Volume CounterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C390A31CC3AB4E34084E86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Volume Counter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97CD0ECDDCFC1072B35479A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Volume Counter-Volume CounterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11299D842A086BA100AF209E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11299DBF2A086E0E00AF209E /* CounterDataModel.swift in Sources */,
+				11299DC92A086E7600AF209E /* UIColor.swift in Sources */,
 				11299D8E2A086BA100AF209E /* ContentView.swift in Sources */,
+				11299DC12A086E1E00AF209E /* VolumeListener.swift in Sources */,
+				11299DCF2A086EDB00AF209E /* BannerAd.swift in Sources */,
+				11299DC62A086E4E00AF209E /* CounterSingleView.swift in Sources */,
+				11299DCB2A086E8700AF209E /* Color.swift in Sources */,
+				11299DBD2A086DFA00AF209E /* VolumeController.swift in Sources */,
 				11299D8C2A086BA100AF209E /* Volume_CounterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +624,7 @@
 		};
 		11299DAD2A086BA400AF209E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E88C5D25EB65417C8819F9EB /* Pods-Volume Counter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,26 +634,32 @@
 				DEVELOPMENT_TEAM = J8MC4CX4J2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Volume-Counter-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "donhyeonglee.Volume-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		11299DAE2A086BA400AF209E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D325D384B06468C43DBD8DE /* Pods-Volume Counter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,26 +669,32 @@
 				DEVELOPMENT_TEAM = J8MC4CX4J2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Volume-Counter-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "donhyeonglee.Volume-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		11299DB02A086BA400AF209E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA69854E2BD1B8FDFB8FD11 /* Pods-Volume CounterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +715,7 @@
 		};
 		11299DB12A086BA400AF209E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41A5EC237231312BF609536 /* Pods-Volume CounterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +736,7 @@
 		};
 		11299DB32A086BA400AF209E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E53433FB72C2FF384D542E /* Pods-Volume Counter-Volume CounterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +755,7 @@
 		};
 		11299DB42A086BA400AF209E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73264216F732DD3F80B332FD /* Pods-Volume Counter-Volume CounterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -583,6 +812,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11299DB52A086C2B00AF209E /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11299DB62A086C2B00AF209E /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11299DB52A086C2B00AF209E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		11299DB82A086C2B00AF209E /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11299DB52A086C2B00AF209E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11299D802A086BA100AF209E /* Project object */;
 }
